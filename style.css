@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(tech\ catoon2.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    padding: 10px;
+    opacity: .8;
+
+}
+.clock{
+    display: flex;
+}
+.cont{
+    background-color: black;
+    padding: 30px 80px 30px 80px;
+    opacity: .9;
+    border-radius: 20px;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(61, 43, 8);
+    border-radius: 10px;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.clock .txt{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: black;
+    letter-spacing: 2px;
+    opacity: .8;
+}
+.num{
+    font-family: cursive !important;
+}
+
+.clock #ampm{
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+    background-color: black;
+    font-weight: 800;
+    opacity: .8;
+}
